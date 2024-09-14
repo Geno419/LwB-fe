@@ -20,7 +20,7 @@
     "@fullcalendar/timegrid": "^6.1.11",
     "agora-rtc-sdk-ng": "^4.18.3",
     "axios": "^1.6.7",
-    "editorjs-inline-image": "^1.2.4",
+    "editorjs-inline-image": "^2.2.2",
     "editorjs-react": "^0.1.9",
     "editorjs-react-renderer": "^3.5.1",
     "editorjs-table": "^1.4.10",

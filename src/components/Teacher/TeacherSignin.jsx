@@ -47,21 +47,25 @@ function TeacherSignin() {
       .then(() => {
         setTUsernameLogin("");
         setTPasswordLogin("");
-        navigate("/teacher/home")
+        navigate("/teacher/home");
       })
       .catch((err) => {
-        setIsLoading(false)
+        setIsLoading(false);
         setError(err.response.data.message);
       });
   }
 
   return (
     <>
-     <h1 className="companyName homePageCompanyName companyNameForms">Learning without Borders</h1>
+      <h1 className="companyName homePageCompanyName companyNameForms">
+        Learning without Borders
+      </h1>
       <div className="authenFormWrapper signInFormwrapper">
         <h2 className="formName">Welcome! Sign In</h2>
-        {/* <p className=“descriptionForm”>We’re almost done. Before using our services you need to create an account</p> */}
-        <form className="registrationForm signInFormClass" onSubmit={teacherLogin}>
+        <form
+          className="registrationForm signInFormClass"
+          onSubmit={teacherLogin}
+        >
           <label htmlFor="userName"></label>
           <input
             className="inputFields"
@@ -90,15 +94,21 @@ function TeacherSignin() {
           <button disabled={success} className="joinBtn">
             Login
           </button>
-          <Link className="linkDontHaveAccount" to="/teacher/signup">Don't have an account? Sign Up!</Link>
+          <Link className="linkDontHaveAccount" to="/teacher/signup">
+            Don't have an account? Sign Up!
+          </Link>
         </form>
-
         <div hidden={!success}>
           <Link to="/teacher/home" className="home-button">
             <button className="homeBtn">Home</button>
           </Link>
         </div>
       </div>
+      <p className="notice">Username: kfields & Password: fields </p>
+      <p className="notice">
+        Please allow up to 3 minutes for the database to initialize on first
+        use.
+      </p>
     </>
   );
 }

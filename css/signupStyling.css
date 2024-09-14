@@ -59,14 +59,14 @@
   border-radius: 10px;
   border: 1px solid #03e9f4;
 }
-.joinBtn:hover:not(:disabled)  {
+.joinBtn:hover:not(:disabled) {
   background: #03e9f4;
   color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
     0 0 100px #03e9f4;
 }
-.homeBtn{
+.homeBtn {
   padding: 10px 20px;
   color: #15172b;
   font-size: 16px;
@@ -78,92 +78,96 @@
   display: block;
   border-radius: 10px;
 }
-.homeBtn:hover:not(:disabled)  {
+.homeBtn:hover:not(:disabled) {
   background: #03e9f4;
   color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
     0 0 100px #03e9f4;
 }
-.signInFormwrapper{
+.signInFormwrapper {
   width: 500px;
-  height:420px;
+  height: 420px;
 }
-.signInFormClass{
+.signInFormClass {
   padding: 2.3rem 1.2rem 0.6rem;
 }
-.linkDontHaveAccount{
+.linkDontHaveAccount {
   color: #fff;
   text-decoration: none;
 }
-.companyNameForms{
+.companyNameForms {
   margin-bottom: 3.9rem;
   margin-top: 2rem;
-
 }
 
-@media screen and (max-width: 630px){
-  .authenFormWrapper{
+.notice {
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 630px) {
+  .authenFormWrapper {
     max-width: 88%;
   }
 }
 
-@media screen and (max-width: 542px){
-  .authenFormWrapper{
+@media screen and (max-width: 542px) {
+  .authenFormWrapper {
     height: 600px;
   }
-  .signInFormwrapper{
+  .signInFormwrapper {
     width: 88%;
-    max-height: 420px
+    max-height: 420px;
   }
-  .joinBtn{
+  .joinBtn {
     margin: 2.3rem auto;
   }
 }
 
-@media screen and (max-width: 545px){
-  .signInFormwrapper{
+@media screen and (max-width: 545px) {
+  .signInFormwrapper {
     max-height: 420px;
   }
 }
 
-
-
-@media screen and (max-width: 330px){
-  .inputFields{
+@media screen and (max-width: 330px) {
+  .inputFields {
     max-width: 92%;
   }
 }
 
-.signInFormwrapper{
+.signInFormwrapper {
   width: 500px;
-  height:420px;
+  height: 420px;
 }
-.signInFormClass{
+.signInFormClass {
   padding: 2.3rem 1.2rem 0.6rem;
 }
 
-@media screen and (max-width: 630px){
-  .authenFormWrapper{
+@media screen and (max-width: 630px) {
+  .authenFormWrapper {
     max-width: 88%;
   }
 }
 
-@media screen and (max-width: 542px){
-  .authenFormWrapper{
+@media screen and (max-width: 542px) {
+  .authenFormWrapper {
     height: 600px;
   }
-  .signInFormwrapper{
+  .signInFormwrapper {
     width: 88%;
   }
-  .joinBtn{
+  .joinBtn {
     margin: 2.3rem auto;
   }
 }
 
-@media screen and (max-width: 330px){
-  .inputFields{
+@media screen and (max-width: 330px) {
+  .inputFields {
     max-width: 92%;
   }
 }
-
