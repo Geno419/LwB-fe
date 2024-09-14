@@ -99,6 +99,13 @@ function StudentSignin() {
           <Link className="linkDontHaveAccount" to="/student/signup">
             Don't have an account? Sign Up!
           </Link>
+          <div className="notice">
+            <p>Username: msmith & Password: smith </p>
+            <p>
+              Please allow up to 3 minutes for the database to initialize on
+              first use.
+            </p>
+          </div>
         </form>
         <div hidden={!success}>
           <Link to="/student/home" className="home-button">
@@ -106,11 +113,6 @@ function StudentSignin() {
           </Link>
         </div>
       </div>
-      <p className="notice">Username: msmith & Password: smith </p>
-      <p className="notice">
-        Please allow up to 3 minutes for the database to initialize on first
-        use.
-      </p>
     </>
   );
 }
